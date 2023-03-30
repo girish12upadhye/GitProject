@@ -1,5 +1,9 @@
 public class Demo
 {
+	public Demo()
+	{
+		System.out.println("Non Parametrized Constructor");
+	}
 	public Demo(String str)
 	{
 		System.out.println(str);
