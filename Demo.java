@@ -8,13 +8,21 @@ public class Demo
 	{
 		System.out.println(str);
 	}
+
 	public void demo1()
 	{
 		System.out.println("demo1 method of Demo Class");
 	}
+	public static void demo()
+	{
+		System.out.println("demo method of class Demo");
+
+	}
 	public static void main(String args[])
 	{
-		Demo d = new Demo("Demo Constructor with String Parameter");
+		Demo d = new Demo();
+		Demo d1 = new Demo("Demo Constructor with String Parameter");
+		d.demo();
 	}
 
 }
