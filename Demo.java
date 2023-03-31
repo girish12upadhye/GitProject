@@ -9,6 +9,10 @@ public class Demo
 		System.out.println(str);
 	}
 
+	public static void demo2()
+	{
+		System.out.println("demo2 method of Demo Class");
+	}
 	public void demo1()
 	{
 		System.out.println("demo1 method of Demo Class");
